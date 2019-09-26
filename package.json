@@ -1,0 +1,25 @@
+{
+  "name": "stylelint_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint ./index.css",
+    "lint-fix": "stylelint --fix ./index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mo-ro/stylelint_test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mo-ro/stylelint_test/issues"
+  },
+  "homepage": "https://github.com/mo-ro/stylelint_test#readme",
+  "devDependencies": {
+    "stylelint": "^11.0.0",
+    "stylelint-config-standard": "^19.0.0"
+  }
+}
